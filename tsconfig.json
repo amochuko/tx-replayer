@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["ES5", "ES2015"],
+    "module": "CommonJS",
+    "outDir": "dist",
+    "rootDir": "src",
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "src/main.ts"],
+  "exclude": ["node_modules"]
+}

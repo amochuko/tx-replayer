@@ -1,0 +1,29 @@
+{
+  "name": "tx-replayer",
+  "version": "0.0.1",
+  "description": "A transaction replayer",
+  "main": "src/main.ts",
+  "home": "https://github.com/amochuko/tx-replayer#readme",
+  "scripts": {
+    "test": "jest --watch",
+    "test:coverage": "jest --forceExit --coverage --verbose",
+    "clean": "rm -rf ./dist",
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "npm run build && node ./dist/main.js"
+  },
+  "keywords": ["web3"],
+  "author": "Ochuko Awhe <7204868+amochuko@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
